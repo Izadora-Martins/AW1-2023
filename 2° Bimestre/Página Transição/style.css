@@ -1,0 +1,132 @@
+header{
+    background: linear-gradient(0deg, rgba(58,84,218,1) 19%, rgba(252,70,107,1) 45%, rgba(210,62,215,1) 82%); 
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{ 
+  color: aliceblue;
+  transition: color 0.3s ease;
+}
+h1:hover{
+  color: black;
+}
+  
+
+.Significado{
+  background-image: linear-gradient(purple, yellow);
+}
+
+p{
+  margin-left: 50px;
+}
+thead{
+   background: linear-gradient(0deg, rgba(100,84,218,1) 19%, rgba(252,70,107,1) 45%, rgba(210,62,215,1) 82%); 
+}
+.DivTable{
+  background-color: Aquamarine; 
+  transition: background-color 0.3s ease;
+}
+.DivTable:hover{
+  background-color: green;
+  
+}
+.Titulo{
+  text-align: center;
+  
+}
+table{
+  background: rgb(19,214,227);
+background: radial-gradient(circle, rgba(19,214,227,0.6325522160184556) 25%, rgba(159,166,207,0.7410156471141871) 49%, rgba(248,97,255,0.6157035053640172) 86%);
+  margin-top: 10px;
+  margin-left: 5%;
+  border: 1px solid rgb(0, 0, 0);
+  border-collapse: collapse;
+  width: 90%;
+}
+td{
+  border: 1px solid black;
+  height: 25%;
+}
+th{
+  border: 1px solid black;
+}
+h2{
+  margin-left: 50px;
+  color: black;
+  transition: color 0.5s ease;
+  }
+h2:hover{
+  color:pink;
+}
+.conteiner{
+  display: flex;
+}
+
+.DivTable, .TextoSignos{
+  display: inline-block;
+  width: 50%;
+}
+.TextoSignos{ 
+  background: rgb(227,121,19);
+background: radial-gradient(circle, rgba(227,121,19,0.6325522160184556) 25%, rgba(234,214,16,0.7410156471141871) 52%, rgba(97,255,196,0.6157035053640172) 86%);
+}
+.elemento{
+  background-color: red;
+  width: 100px;
+  height: 100px;
+ transition: background-color 0.3s ease;
+}
+.elemento:hover{
+  background-color: green;
+}
+.elemento{ 
+transform: rotate (20deg);
+}
+
+.elemento{
+transform: rotate(-20deg);
+}
+.elemento2{
+  background-color: pink;
+  width: 100px;
+  height: 100px;
+  }
+.elemento2{
+  transform:translate(50px, 100px);
+}
+.elemento3{
+  background-color: purple;
+  width: 100px;
+  height: 100px;
+}
+.elemento3{ 
+transform: scale (2, 3);
+}
+
+.elemento3{
+transform: scale (0.5, 0.5);
+}
+
+form{
+  background: radial-gradient(circle, rgba(19,214,227,0.6325522160184556) 25%, rgba(159,166,207,0.7410156471141871) 49%, rgba(248,97,255,0.6157035053640172) 86%);
+   width: 100%;
+}
+button {
+background-color: blue;
+transition: background-color 0.3s ease;
+}
+button:hover {
+background-color: red;
+}
+video{
+  width: 300px;
+  height: 300px;
+  margin-left: 200px;
+}
+img{
+  width: 300px;
+  height: 300px;
+  margin-left: 200px;
+}

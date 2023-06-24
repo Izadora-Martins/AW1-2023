@@ -1,0 +1,102 @@
+*   {
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair', serif ;
+
+}
+body{
+    margin: 0;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,157,1) 100%); 
+    font-family: 'Playfair', serif; 
+}
+
+main{
+    position: relative;
+    top: 1vh;
+    left: 1vw;
+    display: flex;
+    background-color: #000;
+    border-radius: 50px;
+    width: 98vw;
+    height: 98vh;
+}
+
+.esquerda > h1{
+    color: white;
+}
+.esquerda{
+    display: flex;
+    width: 50vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    width: 600vw;
+    height: 600px;
+}
+.direita{
+    display: flex;
+    width: 50vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    padding: 30px 35px;
+    background-color: #563ad3;
+    border-radius: 20px;
+    width: 60%;
+    height: 50%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20vh;
+    box-shadow: 0 0 20px purple;
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    font-size: bold;
+    
+}
+
+.name {
+    font-size: 2em; 
+    align-self: center;
+}
+
+label {
+    font-size: 1.3em;
+    margin-bottom: 1vh;
+    margin-left: 10px;
+}
+
+input {
+    color: white;
+    padding: 5%;
+    margin-bottom: 6vh;
+    width: 90%;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(154, 152, 152, 0.2);
+    box-shadow: white;
+}
+
+button {
+    font-size: 1.6em;
+    font-weight: bold;
+    width: 40%;
+    align-self: center;
+    padding: 10px;
+    border-radius: 20px;
+}
